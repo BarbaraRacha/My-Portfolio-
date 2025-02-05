@@ -1,0 +1,31 @@
+[
+  {
+    "title": "Real Time Fraud Detection using Kafka Streams & Grafana Dashboard",
+    "description": "This project focuses on building a real-time fraud detection system using Kafka Streams to process financial transactions. It includes setting up Kafka topics, implementing fraud detection rules, storing suspicious transactions in InfluxDB, and visualizing data with Grafana dashboards. The system is designed for easy deployment with Docker and comprehensive documentation for setup and operation.\n\n",
+    "images": ["images/project1/img.png",
+      "images/project1/img_1.png",
+      "images/project1/img_2.png"
+    ],
+    "languages": ["Kafka","Kafka Streams", "InfluxDB", "Grafana", "Docker"]
+  },
+  {
+    "title": "Microservices Application for Conference Management",
+    "description": "This project is an application based on a microservices architecture for managing conferences and keynote speakers. Each keynote speaker and conference has detailed attributes, and the system allows for managing, reviewing, and securing access using modern technologies.",
+    "images": ["images/project2/img.png",
+      "images/project2/img_1.png",
+      "images/project2/img_2.png",
+      "images/project2/img_3.png"
+    ],
+    "languages": ["Spring Boot", "Spring Cloud", "Angular", "Eureka Server", "OAuth2", "Bootstrap", "OpenID Connect", "Keycloak", "Swagger/OpenAPI"]
+  },
+  {
+    "title": "Microservices Application for E-Com Operations Management",
+    "description": "This project involves developing a microservices architecture application designed to manage invoices, products, and customer data. It includes various services such as billing, customer management, and inventory, ensuring scalable and efficient invoice processing. The system aims to streamline e-commerce operations with a modular and maintainable approach.",
+    "images": ["images/project3/img.png",
+      "images/project3/img_1.png",
+      "images/project3/img_2.png",
+      "images/project3/img_3.png"
+    ],
+    "languages": ["Spring Boot", "Spring Cloud", "Angular", "Eureka Server", "Open Feign", "Rest API", "Bootstrap", "H2-Database"]
+  }
+]

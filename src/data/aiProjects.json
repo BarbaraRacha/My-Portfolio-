@@ -1,0 +1,34 @@
+[
+  {
+    "titleAI": "Colon Cancer Detection using Deep Learning ",
+    "descriptionAI": "This project aims to improve colon cancer detection using deep learning for precise segmentation and classification of medical images. By employing the EFFICIENT_NET architecture and transfer learning, the model shows promising results in identifying tumors, aiding early diagnosis and treatment decisions. ",
+    "images": ["images/colonCancer/img.png",
+      "images/colonCancer/img_1.png",
+      "images/colonCancer/img_2.png",
+      "images/colonCancer/img_3.png"
+    ],
+    "languagesAI": ["TensorFlow", "Keras", "StreamLit", "CNN", "EfficientNet", "Transfer Learning"]
+  },
+  {
+    "titleAI": "BAZER-Bot Therapeutic AI Assistant",
+    "descriptionAI": "This project develops an AI-powered chatbot for mental health support, leveraging BERT and BiLSTM models for intent classification and sentiment analysis. The hybrid approach combines BERT's contextual understanding with BiLSTM's sequential modeling, achieving high accuracy in identifying user needs and providing empathetic responses. ",
+    "images": ["images/bazerBot/img_1.png",
+      "images/bazerBot/img.png",
+      "images/bazerBot/img_2.png",
+      "images/bazerBot/img_3.png",
+      "images/bazerBot/img_4.png"
+    ],
+    "languagesAI": ["NLP","Bert", "BiLSTM", "LLAMA-2", "LoRA", "Flask", "Html / CSS"]
+  },
+  {
+    "titleAI": "Fake News Detection Using Transformers",
+    "descriptionAI": "This project aims to create a model capable of classifying articles as fake or real, with the goal of improving the accuracy of fake news detection by combining the strengths of BERT and GPT. BERT excels in text classification, while GPT provides an additional verification step through its text generation capabilities.",
+    "images": ["images/fakeNews/img.png",
+      "images/fakeNews/img_1.png",
+      "images/fakeNews/img_2.png",
+      "images/fakeNews/img_3.png",
+      "images/fakeNews/img_4.png"
+    ],
+    "languagesAI": ["Bert", "GPT", "NLP", "TensorFlow", "PyTorch"]
+  }
+]

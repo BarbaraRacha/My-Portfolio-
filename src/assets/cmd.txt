@@ -1,0 +1,7 @@
+npm init -y
+npm install express cors nodemailer
+node server.js
+
+mot de passe d'application : https://myaccount.google.com/apppasswords
+Nom de MDP d'App: contactMePortfolio
+Code généré : mtlk wgpx kyyk fedu
