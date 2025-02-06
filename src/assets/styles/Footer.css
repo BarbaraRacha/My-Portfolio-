@@ -18,8 +18,8 @@
 .social-icons {
     display: flex;
     gap: 1.8rem;
-    margin-top: 0.1rem;
-    margin-right: -100px;
+    /*margin-top: 0.1rem;
+    /*margin-right: -100px*/
 }
 
 .social-icons p {
@@ -29,7 +29,7 @@
 .name-highlight {
     font-family: 'Brush Script MT', cursive;
     font-size: 22px;
-    margin-left: -100px;
+    /*margin-left: -100px;*/
     text-align: left;
     align-self: flex-start; /* pour les conteneurs flex */
 }
