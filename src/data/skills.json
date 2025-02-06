@@ -1,8 +1,8 @@
 {
-  "Programming Languages": ["JavaScript", "Python", "Java", "C++"],
-  "Frontend Development": ["React", "HTML", "CSS", "Tailwind CSS", "Framer Motion"],
-  "Backend Development": ["Node.js", "Express.js", "Django", "REST API"],
+  "Programming Languages": ["JavaScript", "Python", "Java", "C/C++"],
+  "Frontend Development": ["Angular", "React", "HTML", "CSS", "Tailwind CSS"],
+  "Backend Development": ["Spring Boot", "Node.js", "REST API"],
   "Artificial Intelligence": ["Machine Learning", "Deep Learning", "TensorFlow", "PyTorch"],
   "Big Data": ["Hadoop", "Spark", "Kafka"],
-  "Databases": ["MongoDB", "SQL", "PostgreSQL", "Redis"]
+  "Databases": ["NoSQL", "SQL", "Cassandra"]
 }
