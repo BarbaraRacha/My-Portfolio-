@@ -15,8 +15,6 @@
 
 .home h1 {
     font-size: 80px;
-    margin-top: 8rem;
-    margin-bottom: 1rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ombre pour améliorer la lisibilité */
     display: flex;
     align-items: center;

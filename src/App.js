@@ -14,7 +14,7 @@ import Skills from "./components/Skills";
 const App = () => {
     return (
         <Router>
-            <div style={{backgroundColor: "beige"}}>
+            <div style={{backgroundColor: "beige", height: "100vh"}}>
                 <Navbar/>
                 <Routes>
                     <Route path="/" element={<Home/>}/>
