@@ -1,5 +1,5 @@
 .home {
-    padding-top: 6rem;
+    padding-top: 8rem;
     text-align: center;
     background-image: url('../../../public/images/home-background.jpg'); /* Chemin de l'image */
     background-size: inherit; /* Ajuste l'image pour couvrir toute la section */
@@ -11,6 +11,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    height: 100%;
 }
 
 .home h1 {
