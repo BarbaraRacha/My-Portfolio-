@@ -3,6 +3,8 @@ import '../assets/styles/Contact.css';
 import { motion } from "framer-motion";
 
 
+const API_BASE_URL = process.env.REACT_APP_API_URL;
+
 const Contact = () => {
     const [formData, setFormData] = useState({ name: '', email: '', message: '' });
     const [status, setStatus] = useState('');
@@ -16,7 +18,7 @@ const Contact = () => {
         setStatus('Sending...');
 
         try {
-            const response = await fetch('https://portfolio-racha.netlify.app/api/contact', {
+            const response = await fetch(`${API_BASE_URL}/contact`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(formData),
