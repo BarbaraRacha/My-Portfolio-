@@ -1,0 +1,44 @@
+[
+  {
+    "title": "PFA | Web App for 3D Image Segmentation",
+    "company" : "3D Smart Factory",
+    "description": "Implemented the MeshSegNet deep learning model for accurate automatic segmentation of 3D dental meshes. Developed the user interface and integrated vtk.js and Three.js for 3D visualization. Conducted validation and user testing with .obj files to ensure optimal performance. ",
+    "languages": {"React": "30", "VTK.js": "20", "Pytorch": "30","FastApi": "20"},
+    "lastUpdate": "July 2024 - September 2024 | Mohammedia",
+    "mode" : "Remote",
+    "images": ["images/stage-PFA/img_2.png",
+      "images/stage-PFA/Capture d'écran 2025-01-29 020507.png",
+      "images/stage-PFA/Capture d'écran 2025-01-29 020534.png",
+      "images/stage-PFA/Capture d'écran 2025-01-29 020551.png",
+      "images/stage-PFA/Capture d'écran 2025-01-29 020609.png",
+      "images/stage-PFA/Capture d'écran 2025-01-29 020617.png",
+      "images/stage-PFA/Capture d'écran 2025-01-29 020629.png",
+      "images/stage-PFA/Capture d'écran 2025-01-29 020638.png",
+      "images/stage-PFA/Capture d'écran 2025-01-29 020654.png"
+    ]
+  },
+  {
+    "title": "PFE | Desktop App for HR Management.",
+    "company" : "Commune de Meknes",
+    "description": "\nDeveloped an interactive solution for managing personnel, including employee data modification, archival of administrative files, and organizing evaluation exams.\nStreamlined processes for better efficiency and data management.\nFocused on ease of use and accessibility for HR teams.",
+    "languages": { "JavaFX": "20", "Java": "20", "SQL": "30", "Spring": "10" },
+    "lastUpdate": "Avril 2023 - Juin 2023 | Meknes",
+    "mode" : "On Site",
+    "images": ["images/stage-PFE/img_15.png",
+      "images/stage-PFE/img_1.png",
+      "images/stage-PFE/img_2.png",
+      "images/stage-PFE/img_3.png",
+      "images/stage-PFE/img_4.png",
+      "images/stage-PFE/img_5.png",
+      "images/stage-PFE/img_6.png",
+      "images/stage-PFE/img_7.png",
+      "images/stage-PFE/img_8.png",
+      "images/stage-PFE/img_9.png",
+      "images/stage-PFE/img_10.png",
+      "images/stage-PFE/img_11.png",
+      "images/stage-PFE/img_12.png",
+      "images/stage-PFE/img_13.png",
+      "images/stage-PFE/img_14.png"
+    ]
+  }
+]

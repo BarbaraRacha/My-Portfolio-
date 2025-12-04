@@ -1,0 +1,112 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+/* Styles de base pour la navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+    background-color: #1A1818;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo */
+.logo {
+    font-size: 28px;
+    font-family: 'Brush Script MT', cursive;
+    color: #fff;
+}
+
+/* Liens de navigation */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2.5rem;
+    margin-right: 3rem;
+    padding: 0;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Roboto', 'Poppins', sans-serif;
+    transition: color 0.3s ease;
+    letter-spacing: 1px;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: #ffa500;
+    font-weight: bold;
+}
+
+/* Menu burger */
+.burger-menu {
+    display: none; /* Caché par défaut */
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.burger-menu:hover {
+    transform: scale(1.1);
+}
+
+/* Styles pour les écrans mobiles */
+@media (max-width: 700px) {
+    .nav-links {
+        display: none; /* Caché par défaut sur mobile */
+        flex-direction: column;
+        position: absolute;
+        top: 37px; /* Ajustez en fonction de la hauteur de votre navbar */
+        left: -1px;
+        gap: 1rem;
+        background-color: #1A1818;
+        width: 100%;
+        padding: 20px 0;
+        text-align: center;
+        opacity: 0;
+        transform: translateY(-20px);
+        transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    }
+
+    .nav-links.open {
+        display: flex; /* Affiche les liens lorsque le menu est ouvert */
+        opacity: 1;
+        transform: translateY(0);
+        margin-top: 7px;
+    }
+
+    .burger-menu {
+        display: block; /* Affiche le menu burger sur mobile */
+        margin-right: 2rem;
+        padding: 2px;
+
+    }
+}

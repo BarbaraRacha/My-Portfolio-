@@ -1,0 +1,130 @@
+.education-container {
+    padding: 5rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.education-title {
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 500;
+    color: #222;
+    margin-top: 1.7rem;
+    font-family: bold, sans-serif;
+}
+
+.line2 {
+    color: #ff4500;
+    border: 2.5px solid;
+    margin-bottom: 2.5rem;
+    margin-top: -1.8rem;
+    width: 28%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.timeline {
+    position: relative;
+    padding-left: 3rem;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 6px;
+    background-color: #ff4500;
+    margin-top: 20px;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 2.5rem;
+}
+
+.timeline-icon {
+    position: absolute;
+    left: -3rem;
+    width: 48px;
+    height: 48px;
+    background-color: #ff4500;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timeline-content {
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-left: 1rem;
+    margin-bottom: -1rem;
+}
+
+.date-badge {
+    display: inline-block;
+    background-color: #f3f4f6;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.7rem;
+    font-size: 15px;
+    color: #4b5563;
+    margin-bottom: 0.3rem;
+}
+
+.degree {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 0.5rem;
+}
+
+.institution {
+    color: #6b7280;
+    font-size: 1rem;
+}
+
+/* Responsive - Mobile */
+@media (max-width: 700px) {
+
+    .education-container {
+        padding: 3rem;
+    }
+
+    .education-title {
+        font-size: 2rem;
+    }
+
+    .line2 {
+        width: 65%;
+        margin-top: -1.5rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .timeline {
+        padding-left: 2rem;
+    }
+
+    .timeline-icon {
+        left: -2rem;
+        width: 36px;
+        height: 36px;
+    }
+
+    .timeline-content {
+        margin-left: 0.5rem;
+    }
+
+    .degree {
+        font-size: 1.1rem;
+    }
+
+    .institution {
+        font-size: 0.9rem;
+    }
+}
+
