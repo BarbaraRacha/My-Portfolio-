@@ -1,6 +1,15 @@
+require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const nodemailer = require('nodemailer');
+
+const password = process.env.EMAIL_PASS;
+const emailUser = process.env.EMAIL_USER;
+
+if (!password || !emailUser) {
+    console.error("⚠️ EMAIL_PASS ou EMAIL_USER non défini !");
+    process.exit(1);
+}
 
 const app = express();
 app.use(express.json());
@@ -9,22 +18,20 @@ app.use(cors()); // Autorise les requêtes du frontend
 app.post('/api/contact', async (req, res) => {
     const { name, email, message } = req.body;
 
-    // Configurer le transporteur SMTP (ex: Gmail, Mailtrap, etc.)
     const transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-            user: 'rachabar2003@gmail.com',
-            pass: 'mtlk wgpx kyyk fedu',
+            user: emailUser,
+            pass: password,
         },
     });
 
-
     const mailOptions = {
-        from: `"${name}" <${email}>`, // Utiliser le nom et l'email de l'expéditeur
-        to: 'rachabar2003@gmail.com', // Ton email où le message est envoyé
+        from: `"${name}" <${email}>`,
+        to: 'rachabar2003@gmail.com',
         subject: `Portfolio Message`,
         text: message,
-        replyTo: email, // Permet au destinataire de répondre à l'email de l'expéditeur
+        replyTo: email,
     };
 
     try {
