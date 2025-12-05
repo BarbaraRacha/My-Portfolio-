@@ -27,9 +27,9 @@ app.post('/api/contact', async (req, res) => {
     });
 
     const mailOptions = {
-        from: emailUser,             
+        from: email,             
         to: emailUser,               
-        subject: `Message de ${name}`,  
+        subject: `Message de ${name} à propos de racha's Portfolio`,  
         text: message,
         replyTo: email,              
     };
