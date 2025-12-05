@@ -27,12 +27,13 @@ app.post('/api/contact', async (req, res) => {
     });
 
     const mailOptions = {
-        from: `"${name}" <${email}>`,
-        to: emailUser,
-        subject: `Portfolio Message`,
+        from: emailUser,             
+        to: emailUser,               
+        subject: `Message de ${name}`,  
         text: message,
-        replyTo: email,
+        replyTo: email,              
     };
+
 
     try {
         await transporter.sendMail(mailOptions);
